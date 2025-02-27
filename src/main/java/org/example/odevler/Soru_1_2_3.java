@@ -21,11 +21,11 @@ public class Soru_1_2_3 {
             toplam += sayıDizi[i];
 
             if (sayıDizi[i] > 0) {
-                pozitifToplam+=i;
+                pozitifToplam+=sayıDizi[i];
                 pozitifAdet++;
             }
             else if (sayıDizi[i] < 0) {
-                negatifToplam-=i;
+                negatifToplam+=sayıDizi[i];
                 negatifAdet++;
             }
         }

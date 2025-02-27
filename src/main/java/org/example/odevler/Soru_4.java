@@ -22,7 +22,7 @@ public class Soru_4 {
         for (int i = 0; i < sayıDizi.size() - 1; i++) {
             for (int j = i + 1; j < sayıDizi.size(); j++) {
                 if (sayıDizi.get(i) < sayıDizi.get(j)) {
-                    // Sayıları takas yaparak yer değiştir
+
                     int temp = sayıDizi.get(i);
                     sayıDizi.set(i, sayıDizi.get(j));
                     sayıDizi.set(j, temp);
